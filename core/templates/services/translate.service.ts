@@ -76,7 +76,7 @@ export class TranslateService {
    * @returns {Promise<TranslationsDict>} - A promise that resolves to the
    * translations
    */
-async fetchTranslationsAsync(languageCode: string): Promise<TranslationsDict> {
+  async fetchTranslationsAsync(languageCode: string): Promise<TranslationsDict> {
     return this.translationsBackendApiService.fetchTranslations(languageCode);
   }
 
