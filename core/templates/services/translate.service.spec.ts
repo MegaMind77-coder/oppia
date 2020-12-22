@@ -21,7 +21,7 @@ import { HttpTestingController, HttpClientTestingModule } from
   '@angular/common/http/testing';
 import { TranslateService } from './translate.service';
 
-fdescribe('Translate service', () => {
+describe('Translate service', () => {
   let httpTestingController: HttpTestingController;
   let translate: TranslateService;
 
